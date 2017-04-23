@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">快看动漫</string>
+    <string name="saoyisao">扫一扫</string>
+    <string name="sousuo">搜索</string>
+    <string name="tel">tel</string>
+    <string name="shouye">首页</string>
+    <string name="faxian">发现</string>
+    <string name="v_shequ">V社区</string>
+    <string name="wode">我的</string>
+    <string name="guanzhu">关注</string>
+    <string name="fenlei">分类</string>
+    <string name="tuijian">推荐</string>
+    <string name="guangchang">广场</string>
+    <string name="zhou_4">周四</string>
+    <string name="zhou_5">周五</string>
+    <string name="zhou_6">周六</string>
+    <string name="zhou_7">周日</string>
+    <string name="zhou_1">周一</string>
+    <string name="zhou_2">昨天</string>
+    <string name="zhou_3">今天</string>
+    <string name="quanji">全集</string>
+    <string name="remen">热门</string>
+
+
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/period_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/period_label_text"
+            style="@style/textjuli"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:background="@drawable/title_beijing"
+            android:text="测试" />
+
+        <TextView
+            android:id="@+id/period_title"
+            style="@style/textjuli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textColor="@color/hei"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"></TextView>
+
+        <LinearLayout
+            android:id="@+id/period_quanji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/textjuli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quanji" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="8dp"
+                android:src="@mipmap/ic_collection_next_normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/period_cover_image_url"
+        android:layout_width="match_parent"
+        android:layout_height="260dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/period_titles"
+            style="@style/textjuli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"></TextView>
+
+        <CheckBox
+            android:id="@+id/period_zan"
+            style="@style/textjuli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:button="@drawable/period_praise"
+            android:focusable="false" />
+
+        <TextView
+            android:id="@+id/period_likes_count"
+            style="@style/textjuli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="测试"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="15dp"
+            android:src="@mipmap/ic_home_comment_normal" />
+
+        <TextView
+            android:id="@+id/period_comments_count"
+            style="@style/textjuli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="测试"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

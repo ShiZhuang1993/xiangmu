@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bawei.text.activity.MainActivity">
+    <FrameLayout
+        android:id="@+id/main_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11">
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/huise" />
+
+    <RadioGroup
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/main_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_button_01"
+            style="@style/button"
+            android:drawableTop="@drawable/bottom_01"
+            android:checked="true"
+            android:text="@string/tuijian" />
+
+        <RadioButton
+            android:id="@+id/radio_button_02"
+            style="@style/button"
+            android:drawableTop="@drawable/bottom_02"
+            android:text="@string/faxian" />
+
+        <RadioButton
+            android:id="@+id/radio_button_03"
+            android:drawableTop="@drawable/bottom_03"
+            style="@style/button"
+            android:text="@string/v_shequ" />
+
+        <RadioButton
+            android:id="@+id/radio_button_04"
+            android:drawableTop="@drawable/bottom_04"
+            style="@style/button"
+            android:text="@string/wode" />
+    </RadioGroup>
+</LinearLayout>

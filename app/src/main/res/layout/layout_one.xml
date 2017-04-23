@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/titlecolor"
+    android:orientation="horizontal">
+
+
+    <RadioGroup
+        android:id="@+id/one_radiogrup"
+        style="@style/radiogroup">
+
+        <RadioButton
+            android:id="@+id/one_guanzhu"
+            style="@style/title_button_zuo"
+
+            android:text="@string/guanzhu" />
+
+        <RadioButton
+            android:id="@+id/one_remen"
+            style="@style/title_button_you"
+            android:checked="true"
+            android:text="@string/remen" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/one_chaxun"
+        style="@style/title_chaxun"
+        android:src="@mipmap/ic_find_nav_search_normal" />
+
+</RelativeLayout>

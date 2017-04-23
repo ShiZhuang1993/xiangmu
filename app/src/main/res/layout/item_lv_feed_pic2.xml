@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="8dp"
+              android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/linear_item_hrz">
+
+        <com.bawei.text.utils.XCRoundImageView
+            android:id="@+id/iv_author_item_feed_2"
+            style="@style/iv_author_feed"
+            />
+
+        <TextView
+            android:id="@+id/tv_item_feed_name_2"
+            style="@style/tv_item_name_feed"
+            android:text="name"/>
+
+        <Button
+            android:id="@+id/btn_item_subscribe_feed_2"
+            style="@style/btn_item_subscribe_feed"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_item_content_feed_2"
+        style="@style/tv_item_content_feed"
+        android:text="content"/>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="120dp"
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/iv_item_feed_2_01"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/iv_item_feed_2_02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="120dp"
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/iv_item_feed_2_03"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/iv_item_feed_2_04"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear_item_hrz">
+
+        <TextView
+            android:id="@+id/tv_time_item_feed_2"
+            style="@style/tv_item_time_feed"/>
+
+        <CheckBox
+            android:id="@+id/ck_likes_item_feed_check2"
+            style="@style/cartoon_hot_xlistview_bottom_checkbox"
+            android:background="@drawable/cartoon_hot_xlistview_praise" />
+
+        <TextView
+            android:id="@+id/ck_likes_item_feed_2"
+            android:text="111"
+            style="@style/cartoon_hot_xlistview_bottom_text" />
+
+        <CheckBox
+            android:id="@+id/ck_comments_item_feed_check2"
+            style="@style/cartoon_hot_xlistview_bottom_checkbox"
+            android:background="@drawable/cartoon_hot_xlistview_comment" />
+
+        <TextView
+            android:id="@+id/ck_comments_item_feed_2"
+            android:text="111"
+            style="@style/cartoon_hot_xlistview_bottom_text" />
+    </LinearLayout>
+
+</LinearLayout>

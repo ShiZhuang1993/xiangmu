@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="8dp"
+              android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/linear_item_hrz">
+
+        <com.bawei.text.utils.XCRoundImageView
+            android:id="@+id/iv_author_item_feed_3"
+            style="@style/iv_author_feed"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_item_feed_name_3"
+            android:text="name"
+            style="@style/tv_item_name_feed"/>
+
+        <Button
+            android:id="@+id/btn_item_subscribe_feed_3"
+            style="@style/btn_item_subscribe_feed"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_item_content_feed_3"
+        android:text="content"
+        style="@style/tv_item_content_feed"/>
+
+    <GridView
+        android:numColumns="3"
+        android:id="@+id/gv_item_feed_3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        style="@style/linear_item_hrz">
+
+        <TextView
+            android:id="@+id/tv_time_item_feed_3"
+            style="@style/tv_item_time_feed"/>
+
+        <CheckBox
+            android:id="@+id/ck_likes_item_feed_check3"
+            style="@style/cartoon_hot_xlistview_bottom_checkbox"
+            android:background="@drawable/cartoon_hot_xlistview_praise" />
+
+        <TextView
+            android:id="@+id/ck_likes_item_feed_3"
+            android:text="111"
+            style="@style/cartoon_hot_xlistview_bottom_text" />
+
+        <CheckBox
+            android:id="@+id/ck_comments_item_feed_check"
+            style="@style/cartoon_hot_xlistview_bottom_checkbox"
+            android:background="@drawable/cartoon_hot_xlistview_comment" />
+
+        <TextView
+            android:id="@+id/ck_comments_item_feed_3"
+            android:text="111"
+            style="@style/cartoon_hot_xlistview_bottom_text" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dr_02_tuijian_title"
+            style="@style/faxian_zi_jianju"
+            android:layout_marginLeft="10dp"
+            android:text="测试"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/dr_02_tuijian_gengduo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/faxian_zi_jianju"
+                android:text="更多" />
+
+            <ImageView
+                style="@style/faxian_zi_jianju"
+                android:layout_marginEnd="10dp"
+                android:src="@mipmap/ic_collection_next_normal" />
+        </LinearLayout>
+    </LinearLayout>
+<GridView
+    android:id="@+id/dr_02_tuijain_gridview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:numColumns="3"></GridView>
+
+</LinearLayout>
